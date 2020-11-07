@@ -18,4 +18,8 @@ public class Calculator {
   public void multiply(int a, int b){
     result = a * b;
   }
+
+  public void divide(int a, int b){
+    result = a / b;
+  }
 }
