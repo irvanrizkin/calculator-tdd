@@ -37,4 +37,11 @@ public class CalculatorTest {
     calculator.divide(4,2);
     assertEquals("2.0", calculator.toString());
   }
+
+  @Test
+  public void whenDivisionByZeroReturnZero(){
+    Calculator calculator = new Calculator();
+    calculator.divide(4,0);
+    assertEquals("0.0", calculator.toString());
+  }
 }
