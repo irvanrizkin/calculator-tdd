@@ -16,4 +16,11 @@ public class CalculatorTest {
     calculator.add(5,2);
     assertEquals("7.0", calculator.toString());
   }
+
+  @Test
+  public void whenSubtractNumbersReturnNumber(){
+    Calculator calculator = new Calculator();
+    calculator.subtract(5,2);
+    assertEquals("3.0", calculator.toString());
+  }
 }
