@@ -1,8 +1,13 @@
 package com.irvanrizkin.calculator_tdd;
 
 public class Calculator {
+  double result = 0;
   @Override
   public String toString() {
-    return "0.0";
+    return String.valueOf(result);
+  }
+
+  public void add(int a, int b){
+    result = a + b;
   }
 }
