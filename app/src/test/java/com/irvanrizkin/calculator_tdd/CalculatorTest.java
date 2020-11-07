@@ -23,4 +23,11 @@ public class CalculatorTest {
     calculator.subtract(5,2);
     assertEquals("3.0", calculator.toString());
   }
+
+  @Test
+  public void whenMultiplyNumbersReturnNumber(){
+    Calculator calculator = new Calculator();
+    calculator.multiply(4,2);
+    assertEquals("8.0",calculator.toString());
+  }
 }
