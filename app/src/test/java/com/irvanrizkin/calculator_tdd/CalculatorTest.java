@@ -30,4 +30,11 @@ public class CalculatorTest {
     calculator.multiply(4,2);
     assertEquals("8.0",calculator.toString());
   }
+
+  @Test
+  public void whenDivisionNumbersReturnNumbers(){
+    Calculator calculator = new Calculator();
+    calculator.divide(4,2);
+    assertEquals("2.0", calculator.toString());
+  }
 }
