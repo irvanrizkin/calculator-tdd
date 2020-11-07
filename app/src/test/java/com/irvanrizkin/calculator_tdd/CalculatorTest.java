@@ -9,4 +9,11 @@ public class CalculatorTest {
     Calculator calculator = new Calculator();
     assertEquals("0.0",calculator.toString());
   }
+
+  @Test
+  public void whenAddNumbersReturnNumber(){
+    Calculator calculator = new Calculator();
+    calculator.add(5,2);
+    assertEquals("7.0", calculator.toString());
+  }
 }
