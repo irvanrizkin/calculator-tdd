@@ -44,4 +44,11 @@ public class CalculatorTest {
     calculator.divide(4,0);
     assertEquals("0.0", calculator.toString());
   }
+
+  @Test
+  public void whenCancelReturnZero(){
+    Calculator calculator = new Calculator();
+    calculator.cancel();
+    assertEquals("0.0", calculator.toString());
+  }
 }
