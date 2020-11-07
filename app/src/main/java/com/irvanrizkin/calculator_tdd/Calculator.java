@@ -26,4 +26,8 @@ public class Calculator {
     }
     result = a / b;
   }
+
+  public void cancel(){
+    result = 0;
+  }
 }
