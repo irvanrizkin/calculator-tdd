@@ -14,4 +14,8 @@ public class Calculator {
   public void subtract(int a, int b){
     result = a - b;
   }
+
+  public void multiply(int a, int b){
+    result = a * b;
+  }
 }
