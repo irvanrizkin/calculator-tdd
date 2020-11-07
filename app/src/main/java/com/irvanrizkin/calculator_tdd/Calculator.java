@@ -20,6 +20,10 @@ public class Calculator {
   }
 
   public void divide(int a, int b){
+    if (b == 0){
+      result = 0.0;
+      return;
+    }
     result = a / b;
   }
 }
